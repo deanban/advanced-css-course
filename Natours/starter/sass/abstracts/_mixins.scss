@@ -1,0 +1,8 @@
+@mixin clearfix {
+  //appends a pseudo-element after the element
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
